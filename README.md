@@ -83,6 +83,27 @@ The incomplete row and invalid-amount row are skipped. The program only skips a 
 - Generate charts of expenses by category
 - Add a simple graphical user interface
 
+## Automated Tests
+
+The project includes unit tests written with Python's built-in `unittest` framework.
+
+The tests check:
+
+- Expense totals and record counts
+- Duplicate detection
+- Invalid amounts
+- Missing required data
+- Missing input files
+- Incorrect CSV headers
+
+### Run the Tests
+
+```bash
+python -m unittest -v test_main.py
+```
+
+All tests should pass before a release is considered ready.
+
 ## Author
 
 Sarthak Agarwal
