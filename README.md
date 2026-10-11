@@ -34,4 +34,27 @@ Beginner portfolio project under development.
 
 ## Author
 
-Your Name
+Sarthak Agarwal 
+
+## Example Results
+
+Using the included sample data, the program:
+
+- Processes 5 valid expense records
+- Calculates total expenses of Rs. 689.00
+- Groups spending by category
+- Skips duplicate and invalid records
+- Creates a cleaned CSV output file
+
+## Project Structure
+
+- `main.py` — Python program
+- `expenses.csv` — Sample input
+- `cleaned_expenses.csv` — Generated output
+
+## Future Improvements
+
+- Add a graphical user interface
+- Generate monthly expense reports
+- Create charts showing spending by category
+- Add automated tests
